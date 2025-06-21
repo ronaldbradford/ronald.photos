@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Recent Work</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="A boundless, invite-only portfolio platform for creative professionals.">
+  <meta name="keywords" content="portfolio, creative, design, professionals, invite-only, platform">
+  <meta name="author" content="Mark Bucknell">
+
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+
+  <meta name="twitter:card" content="">
+  <meta name="twitter:title" content=""
+  <meta name="twitter:description" content=""
+  <meta name="twitter:image" content="">
+  <meta name="twitter:url" content="">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:creator" content="">
+
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link rel="stylesheet" href="output.css">
+
+  <!-- Add Masonry and imagesLoaded libraries -->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+  <script type="module" src="main.js"></script>
+  <link rel="stylesheet" href="overlay-info.css">
+  <link rel="stylesheet" href="responsive-masonry-columns.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.png" type="image/png" />
+</head>
+
+<body>
+  <div id="masonry-grid">
+    <div id="placeholder" class="grid-item placeholder-item block h-[398px] mb-4"></div>
+  </div>
+</body>
+</html>

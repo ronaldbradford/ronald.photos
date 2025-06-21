@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Recent Work</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="A boundless, invite-only portfolio platform for creative professionals.">
+  <meta name="keywords" content="portfolio, creative, design, professionals, invite-only, platform">
+  <meta name="author" content="Mark Bucknell">
+
+  <meta property="og:title" content="Recent Work">
+  <meta property="og:description" content="A boundless, invite-only portfolio platform for creative professionals.">
+  <meta property="og:image" content="https://recentwork.com/assets/twitter.jpeg">
+  <meta property="og:url" content="https://recentwork.com">
+  <meta property="og:site_name" content="Recent Work">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Recent Work">
+  <meta name="twitter:description" content="A boundless, invite-only portfolio platform for creative professionals.">
+  <meta name="twitter:image" content="https://recentwork.com/assets/twitter.jpeg">
+  <meta name="twitter:url" content="https://recentwork.com">
+  <meta name="twitter:site" content="@dannpetty">
+  <meta name="twitter:creator" content="@dannpetty">
+
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link rel="stylesheet" href="output.css">
+
+  <!-- Add Masonry and imagesLoaded libraries -->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+  <script type="module" src="main.js"></script>
+  <link rel="stylesheet" href="overlay-info.css">
+  <link rel="stylesheet" href="responsive-masonry-columns.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.png" type="image/png" />
+</head>
+
+<body>
+  <div id="signupBox"
+    class="fixed top-4 left-4 z-50 flex flex-col justify-end overflow-hidden transition-all duration-300 bg-white px-6 opacity-0">
+    <div id="signupToggle"
+      class="absolute top-5 left-0 right-0 flex justify-between items-center py-2 w-full px-6 z-10 cursor-pointer">
+      <h1 class="title tracking-[-0.03em]">Recent Work</h1>
+      <div id="toggleIcon" class="hidden transition-transform duration-300">
+        <svg width="20" height="9" viewBox="0 0 20 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 1H19M1 8H19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+    </div>
+
+    <div id="signupContent" class="opacity-100 scale-y-100 origin-top transition-all duration-500 delay-200">
+      <div class="flex flex-col gap-2 pb-6 pt-20">
+        <p class="heading tracking-[0.02em] max-w-sm">
+          <span class="block tracking-[-0.02em]">A boundless, invite-only</span>
+          <span class="block tracking-[-0.02em]">portfolio platform for</span>
+          <span class="block tracking-[-0.02em]">creative professionals.</span>
+        </p>
+        <p class="subheading tracking-[-0.02em]">Join the waitlist for updates.</p>
+        <input id="emailInput" type="email" placeholder="enter email" name="email"
+          class="outline-none w-full pl-4 pr-2 py-2 rounded-full border border-gray-300 text-black mt-4" />
+        <button id="joinButton"
+          class="w-full p-2 rounded-full bg-black text-white cursor-pointer flex items-center justify-center gap-2 transition-all duration-300 hover:bg-gray-100 hover:text-black border border-transparent hover:border-black hover:border-opacity-50 relative active:scale-95">
+          <span id="buttonText" class="tracking-[0em]">Join the Waitlist</span>
+          <svg id="checkIcon" class="hidden check-icon" width="19" height="13" viewBox="0 0 19 13" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path class="check-path" d="M17.5 1L6.5 12L1.5 7" stroke="#17FF2F" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="masonry-grid">
+    <div id="placeholder" class="grid-item placeholder-item block h-[398px] mb-4"></div>
+  </div>
+</body>
+</html>
