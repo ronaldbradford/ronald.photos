@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius:wght@400;500;600;700&display=swap');
 
 html, body {
   width: 100%;
@@ -14,57 +14,12 @@ body {
   padding: 0;
   background: #000;
   overflow-x: hidden;
-  font-family: Inter;
+  font-family: Delius;
   width: 100%;
 }
 
-#signupBox {
-  /* Keep the smooth transition for the box itself */
-  transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
-  height: 398px;
-  left: 18px;
-  border-radius: 15px;
-  max-width: 100%;
-}
-
-#signupBox.collapsed {
-  height: 79px;
-  border-radius: 100px;
-  left: 13px;
-  max-width: calc(100% + 11px);
-  transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
-}
-
-#signupToggle {
-  padding-left: 24px; /* Your adjusted value */
-  transition: padding-left 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
-}
-
-#signupBox.collapsed #signupToggle {
-  padding-left: 26px;
-  transition: padding-left 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
-}
-
-/* Default transition for expanding */
-#signupContent {
-  transition: opacity 0.7s cubic-bezier(0.25, 0.1, 0.25, 1),
-              transform 0.7s cubic-bezier(0.25, 0.1, 0.25, 1);
-}
-
-/* Faster transition for collapsing */
-.collapsing #signupContent {
-  transition: opacity 0.05s cubic-bezier(0.25, 0.1, 0.25, 1),
-              transform 0.05s cubic-bezier(0.25, 0.1, 0.25, 1);
-}
-
-#signupBox.scrolled {
-  left: 13px;
-  max-width: calc(100% + 13px);
-}
-
 .heading {
-  font-family: Inter;
+  font-family: Delius;
   font-weight: 600;
   font-size: 24px;
   line-height: 100%;
@@ -72,7 +27,7 @@ body {
 }
 
 .subheading {
-  font-family: Inter;
+  font-family: Delius;
   font-weight: 500;
   font-size: 12px;
   line-height: 100%;
@@ -81,7 +36,7 @@ body {
 }
 
 .title {
-  font-family: Inter;
+  font-family: Delius;
   font-weight: 700;
   font-size: 24px;
   line-height: 100%;
@@ -89,7 +44,7 @@ body {
 }
 
 .buttonText {
-  font-family: Inter;
+  font-family: Delius;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
@@ -119,39 +74,6 @@ body {
   width: 100%;
   display: block;
   border-radius: 15px 15px 0 0;
-}
-
-.video-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.video-thumbnail {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-  transition: opacity 0.3s ease;
-}
-
-.hover-video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* When video is loaded and playing, hide the thumbnail */
-.video-playing .video-thumbnail {
-  opacity: 0;
-}
-
-.video-playing .hover-video {
-  opacity: 1;
 }
 
 /* Check icon animation */

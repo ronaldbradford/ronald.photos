@@ -2,28 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Recent Work</title>
+  <title>Photo Collection of Ronald Bradford</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="description" content="A boundless, invite-only portfolio platform for creative professionals.">
-  <meta name="keywords" content="portfolio, creative, design, professionals, invite-only, platform">
-  <meta name="author" content="Mark Bucknell">
+  <meta name="description" content="Architecture, Landscapes, Nature and Night Photography">
+  <meta name="keywords" content="photography, photos, architecture, landscapes, nature, portfolio, creative, design, professionals ">
+  <meta name="author" content="Ronald Bradford">
 
-  <meta property="og:title" content="Recent Work">
-  <meta property="og:description" content="A boundless, invite-only portfolio platform for creative professionals.">
-  <meta property="og:image" content="https://ronald.photos/assets/twitter.jpeg">
+  <meta property="og:title" content="Photo Collection of Ronald Bradford">
+  <meta property="og:description" content="Architecture, Landscapes, Nature and Night Photography">
+  <meta property="og:image" content="https://ronald.photos/twitter.jpg">
   <meta property="og:url" content="https://ronald.photos">
-  <meta property="og:site_name" content="Recent Work">
+  <meta property="og:site_name" content="Photo Collecton of Ronald Bradford">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Recent Work">
-  <meta name="twitter:description" content="A boundless, invite-only portfolio platform for creative professionals.">
-  <meta name="twitter:image" content="https://ronald.photos/assets/twitter.jpeg">
+  <meta name="twitter:title" content="Photo Collection of Ronald Bradford">
+  <meta name="twitter:description" content="Architecture, Landscapes, Nature and Night Photography">
+  <meta name="twitter:image" content="https://ronald.photos/twitter.jpg">
   <meta name="twitter:url" content="https://ronald.photos">
   <meta name="twitter:site" content="@ronaldbradford">
   <meta name="twitter:creator" content="@ronaldbradford">
 
   <link rel="stylesheet" href="output.css">
 
+  <!--script src="https://cdn.tailwindcss.com"></script> -->
   <!-- Add Masonry and imagesLoaded libraries -->
   <script src="masonry.pkgd.min.js"></script>
   <script src="imagesloaded.pkgd.min.js"></script>
@@ -31,10 +32,287 @@
   <link rel="stylesheet" href="overlay-info.css">
   <link rel="stylesheet" href="responsive-masonry-columns.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+        }
+
+        .header {
+            background-color: black;
+            position: relative;
+            top: 0;
+            z-index: 100;
+        }
+
+
+        .header-container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            height: 70px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-icon {
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            transition: color 0.3s ease;
+        }
+
+        .nav a:hover {
+            color: #3b82f6;
+        }
+
+        .social-icon {
+            width: 24px;
+            height: 24px;
+            fill: #ffffff;
+            transition: fill 0.3s ease;
+        }
+
+        .social-icon:hover {
+            fill: #3b82f6;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .hamburger {
+            width: 25px;
+            height: 3px;
+            background-color: #ffffff;
+            margin: 5px 0;
+            transition: 0.3s;
+            border-radius: 2px;
+        }
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.mobile-nav a {
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #ffffff;  /* Change from #374151 to white */
+    font-weight: 600;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.mobile-social .social-icon {
+    fill: #ffffff;  /* Ensure social icon is white in mobile */
+}
+        .mobile-menu.active {
+            display: block;
+        }
+
+        .mobile-nav a {
+            display: block;
+            padding: 15px 0;
+            text-decoration: none;
+            color: #FFFFFF;
+            font-weight: 600;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .mobile-nav a:hover {
+            color: #3b82f6;
+        }
+
+        /* Mobile Styles */
+        @media (max-width: 768px) {
+            .nav {
+                display: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .header-container {
+                padding: 0 15px;
+                height: 60px;
+            }
+        }
+
+        /* Hamburger animation */
+        .mobile-menu-btn.active .hamburger:nth-child(1) {
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+
+        .mobile-menu-btn.active .hamburger:nth-child(2) {
+            opacity: 0;
+        }
+
+        .mobile-menu-btn.active .hamburger:nth-child(3) {
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
+
+        /* Main content for demo */
+        .main-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .main-content h1 {
+            color: #1f2937;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+
+        .main-content p {
+            color: #6b7280;
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+    </style>
 </head>
 
-<body>
-  <div id="masonry-grid">
-  </div>
+<body class="bg-gray-50">
+    <header class="header">
+        <div class="header-container">
+            <!-- Logo/Icon -->
+            <div class="logo">
+                <img class="logo-icon" src="logo.png" alt="RB logo" />
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="nav">
+                <a href="#galleries">GALLERIES</a>
+                <a href="#contact">CONTACT</a>
+    <a href="https://vsco.co/ronaldbradford" target="_blank">
+        <img src="vsco-icon.svg" class="social-icon" alt="VSCO" />
+    </a>
+    <a href="https://twitter.com/ronaldbradford" target="_blank">
+                    <svg class="social-icon" viewBox="0 0 24 24">
+                        <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                    </svg>
+                </a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobile-toggle">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <nav class="mobile-nav">
+                <a href="#galleries">GALLERIES</a>
+                <a href="#contact">CONTACT</a>
+                <a href="https://vsco.co/ronaldbradford" target="_blank">
+                  <img src="vsco-icon.svg" class="social-icon" alt="VSCO" />
+              </a>
+              <a href="https://twitter.com/ronaldbradford" target="_blank">
+                    <svg class="social-icon" viewBox="0 0 24 24">
+                        <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                    </svg>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div id="masonry-grid">
+      </div>
+    </main>
+
+    <script>
+        const mobileToggle = document.getElementById('mobile-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileToggle.addEventListener('click', function() {
+            this.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileLinks = document.querySelectorAll('.mobile-nav a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                mobileToggle.classList.remove('active');
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+        // Close mobile menu when window is resized to desktop
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                mobileToggle.classList.remove('active');
+                mobileMenu.classList.remove('active');
+            }
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentYear = new Date().getFullYear();
+            document.getElementById('current-year').textContent = currentYear;
+        });
+
+    </script>
+
+
+   <footer class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <!-- Copyright Bar -->
+            <div class="border-t border-gray-700 pt-6">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-300 text-sm">
+                        &copy; 1991-<span id="current-year"></span> Ronald Bradford. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
