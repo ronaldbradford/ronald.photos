@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Galleries of Ronald Bradford</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Architecture, Landscapes, Nature and Night Photography">
+  <meta name="keywords" content="photography, photos, architecture, landscapes, nature, portfolio, creative, design, professionals ">
+  <meta name="author" content="Ronald Bradford">
+
+  <meta property="og:title" content="Galleries of Ronald Bradford">
+  <meta property="og:description" content="Architecture, Landscapes, Nature and Night Photography">
+  <meta property="og:image" content="https://ronald.photos/twitter.jpg">
+  <meta property="og:url" content="https://ronald.photos">
+  <meta property="og:site_name" content="Photo Collecton of Ronald Bradford">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Galleries of Ronald Bradford">
+  <meta name="twitter:description" content="Architecture, Landscapes, Nature and Night Photography">
+  <meta name="twitter:image" content="https://ronald.photos/twitter.jpg">
+  <meta name="twitter:url" content="https://ronald.photos">
+  <meta name="twitter:site" content="@ronaldbradford">
+  <meta name="twitter:creator" content="@ronaldbradford">
+
+  <link rel="stylesheet" href="/output.css">
+
+  <!-- Add Masonry and imagesLoaded libraries -->
+  <script src="/masonry.pkgd.min.js"></script>
+  <script src="/imagesloaded.pkgd.min.js"></script>
+  <script type="module" src="/main.js"></script>
+  <link rel="stylesheet" href="/overlay-info.css">
+  <link rel="stylesheet" href="/responsive-masonry-columns.css">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+<style>
+        .gallery-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 1.0rem 2rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            width: 80%;
+        }
+
+        .gallery-button:hover {
+            transform: translateY(-2px);
+        }
+
+        .gallery-button:nth-child(1):hover {
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
+        }
+
+        .gallery-button:nth-child(2) {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            box-shadow: 0 4px 15px rgba(240, 147, 251, 0.4);
+        }
+
+        .gallery-button:nth-child(2):hover {
+            background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+            box-shadow: 0 8px 25px rgba(240, 147, 251, 0.6);
+        }
+
+        .gallery-button:nth-child(3) {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            box-shadow: 0 4px 15px rgba(168, 237, 234, 0.4);
+            color: #333;
+        }
+
+        .gallery-button:nth-child(3):hover {
+            background: linear-gradient(135deg, #fed6e3 0%, #a8edea 100%);
+            box-shadow: 0 8px 25px rgba(168, 237, 234, 0.6);
+        }
+
+        .gallery-button:nth-child(4) {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            box-shadow: 0 4px 15px rgba(255, 236, 210, 0.4);
+            color: #333;
+        }
+
+        .gallery-button:nth-child(4):hover {
+            background: linear-gradient(135deg, #fcb69f 0%, #ffecd2 100%);
+            box-shadow: 0 8px 25px rgba(255, 236, 210, 0.6);
+        }
+
+        .gallery-button:active {
+            transform: translateY(0);
+        }
+
+        .gallery-button:focus {
+            outline: none;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4), 0 0 0 3px rgba(102, 126, 234, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .gallery-button {
+                font-size: 1.25rem;
+                padding: 1.25rem 2rem;
+            }
+        }
+</style>
+
+<body class="bg-gray-50">
+    <header class="header">
+        <div class="header-container">
+            <!-- Logo/Icon -->
+            <div class="logo">
+                <img class="logo-icon" src="/logo.png" alt="RB logo" />
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="nav">
+                <a href="/">HOME</a>
+                <a href="/galleries">GALLERIES</a>
+                <a href="/contact">CONTACT</a>
+    <a href="https://vsco.co/ronaldbradford" target="_blank">
+        <img src="/vsco-icon.svg" class="social-icon" alt="VSCO" />
+    </a>
+    <a href="https://twitter.com/ronaldbradford" target="_blank">
+                    <svg class="social-icon" viewBox="0 0 24 24">
+                        <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                    </svg>
+                </a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobile-toggle">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <nav class="mobile-nav">
+                <a href="/">HOME</a>
+                <a href="/galleries">GALLERIES</a>
+                <a href="/contact">CONTACT</a>
+                <a href="https://vsco.co/ronaldbradford" target="_blank">
+                  <img src="/vsco-icon.svg" class="social-icon" alt="VSCO" />
+              </a>
+              <a href="https://twitter.com/ronaldbradford" target="_blank">
+                    <svg class="social-icon" viewBox="0 0 24 24">
+                        <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                    </svg>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <style>
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .two-column-layout {
+            display: flex;
+            gap: 2rem;
+            align-items: flex-start;
+            background: #000000;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+        }
+
+        .image-column {
+            flex: 0 0 300px;
+        }
+
+        .square-image {
+            width: 300px;
+            height: 300px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .content-column {
+            flex: 1;
+            min-width: 0; /* Prevents flex item from overflowing */
+        }
+
+        .content-heading {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .content-text {
+            font-size: 1.1rem;
+            color: #4a5568;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .content-text:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .two-column-layout {
+                flex-direction: column;
+                padding: 1.5rem;
+                gap: 1.5rem;
+            }
+
+            .image-column {
+                flex: none;
+                align-self: center;
+            }
+
+            .square-image {
+                width: 250px;
+                height: 250px;
+            }
+
+            .content-heading {
+                font-size: 2rem;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+
+            .content-text {
+                font-size: 1rem;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .square-image {
+                width: 200px;
+                height: 200px;
+                font-size: 1rem;
+            }
+
+            .content-heading {
+                font-size: 1.75rem;
+            }
+
+            .content-text {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+    <div class="container">
+        <div class="two-column-layout">
+            <div class="image-column">
+                    <img class="square-image" src="inspirationx300.png" />
+            </div>
+            <div class="content-column">
+                <h1 class="content-heading">INSPIRATION</h1>
+                <p class="content-text">
+                    This collection provides a stunning image with an inspiration quote for each calendar day.
+                </p>
+                <button class="gallery-button" onclick="redirectTo('/inspiration')">
+                    View Gallery
+                </button>
+            </div>
+        </div>
+
+        <div class="two-column-layout">
+            <div class="image-column">
+                <img class="square-image" src="architecturex300.png" />
+            </div>
+            <div class="content-column">
+                <h1 class="content-heading">ARCHITECTURE</h1>
+                <p class="content-text">A collection of interesting architecture that showcases diverse design styles, cultural influences and techniques spanning varying time periods.
+                </p>
+                <button class="gallery-button" onclick="redirectTo('/architecture')">
+                    View Gallery
+                </button>
+            </div>
+        </div>
+
+        <div class="two-column-layout">
+            <div class="image-column">
+                <img class="square-image" src="travelx300.png" />
+            </div>
+            <div class="content-column">
+                <h1 class="content-heading">WORLD TRAVELS</h1>
+                <p class="content-text">
+                    This collection is an iconic image from each of the following countries I have visited including
+Argentina, Australia, Austria, Bahamas, Belgium, Bermuda, Brazil, Bulgaria, Canada, Chile, Chzechia, Colombia, Costa Rica, Ecuador, Estonia, Finland, France, Germany, Greece, Grenada, Guatemala, Hong Kong, Ireland, Italy, Japan, Kazakhstan, Latvia, Macao, Malaysia, Mexico, Netherlands, New Zealand, Panana, Peru, Philippines, Singapore, South Africa, Spain, Sweden, Switzerland, Thailand, Turkey, United Kingdom (England, Scotland, Wales, Northern Ireland), United States, Uruguay, Vatican City (Holy See).
+                </p>
+                <button class="gallery-button" onclick="redirectTo('/locations')">
+                    View Gallery
+                </button>
+            </div>
+        </div>
+
+        <div class="two-column-layout">
+            <div class="image-column">
+                <img class="square-image" src="patternsx300.png" />
+            </div>
+            <div class="content-column">
+                <h1 class="content-heading">PATTERNS</h1>
+                <p class="content-text">
+                    A collection of patterns.
+                </p>
+                <button class="gallery-button" onclick="redirectTo('/patterns')">
+                    View Gallery
+                </button>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <script>
+        const mobileToggle = document.getElementById('mobile-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileToggle.addEventListener('click', function() {
+            this.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileLinks = document.querySelectorAll('.mobile-nav a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                mobileToggle.classList.remove('active');
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+        // Close mobile menu when window is resized to desktop
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                mobileToggle.classList.remove('active');
+                mobileMenu.classList.remove('active');
+            }
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentYear = new Date().getFullYear();
+            document.getElementById('current-year').textContent = currentYear;
+        });
+
+    </script>
+
+
+   <footer class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <!-- Copyright Bar -->
+            <div class="border-t border-gray-700 pt-6">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-300 text-sm">
+                        &copy; 1991-<span id="current-year"></span> Ronald Bradford. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function redirectTo(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
