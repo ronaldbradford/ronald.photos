@@ -6,12 +6,6 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/07nov2007-X4.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/09nov2007-X4.jpg",
     "title": "TBD",
     "link": ""
@@ -30,12 +24,6 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/26dec2007-X4.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/3066_181123995330_536710330_6556286_7530464_n.jpg",
     "title": "TBD",
     "link": ""
@@ -48,31 +36,7 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/3066_181125525330_536710330_6556340_4725250_n.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/3066_181125650330_536710330_6556345_3431991_n.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/DSC00564-2-X3.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/Empire1-X4.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_0005-2-X4.jpg",
     "title": "TBD",
     "link": ""
   },
@@ -120,31 +84,7 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/IMG_0132-1.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_0142.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_0154.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/IMG_0410-X4.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_1563-XL.jpg",
     "title": "TBD",
     "link": ""
   },
@@ -162,8 +102,8 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/IMG_3096-X4.jpg",
-    "title": "TBD",
+    "image": "x1000/whistler-inukshuk.jpg",
+    "title": "Inukshuk sculpture on mountain - Whistler, British Columbia, Canada",
     "link": ""
   },
 
@@ -186,25 +126,7 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/IMG_3470-3-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_3599-X4.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/IMG_3628.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_3639-X5.jpg",
     "title": "TBD",
     "link": ""
   },
@@ -223,12 +145,6 @@ export const imageData = [
 
   {
     "image": "x1000/IMG_3917-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_3930-X5.jpg",
     "title": "TBD",
     "link": ""
   },
@@ -318,48 +234,6 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/IMG_6495.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_6501-X4.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_6513-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_6527-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_6553-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_6564-2-X4.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_6566-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/IMG_6590-X4.jpg",
     "title": "TBD",
     "link": ""
@@ -384,12 +258,6 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/IMG_6722-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/IMG_6909-X5.jpg",
     "title": "TBD",
     "link": ""
@@ -397,18 +265,6 @@ export const imageData = [
 
   {
     "image": "x1000/IMG_7270-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_7585-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_7634-X5.jpg",
     "title": "TBD",
     "link": ""
   },
@@ -438,24 +294,6 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/IMG_8273-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_8496-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_8545.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/IMG_8611-X5.jpg",
     "title": "TBD",
     "link": ""
@@ -468,31 +306,7 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/IMG_9005.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_9020.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/IMG_9021-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_9022.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_9053-X4.jpg",
     "title": "TBD",
     "link": ""
   },
@@ -505,18 +319,6 @@ export const imageData = [
 
   {
     "image": "x1000/IMG_9224-X4.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_9338-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_9343-X4.jpg",
     "title": "TBD",
     "link": ""
   },
@@ -558,43 +360,7 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/IMG_9646.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/IMG_9717.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_9764.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_9767.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_9796-XL.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_9796.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_9807-X5.jpg",
     "title": "TBD",
     "link": ""
   },
@@ -607,18 +373,6 @@ export const imageData = [
 
   {
     "image": "x1000/IMG_9835-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_9867-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_9877.jpg",
     "title": "TBD",
     "link": ""
   },
@@ -648,31 +402,7 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/IMG_9946-1.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/IMG_99531-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/IMG_9993.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/OSU2-4K.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/P8101592.jpg",
     "title": "TBD",
     "link": ""
   },
@@ -690,19 +420,7 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/fireworks2.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/i-4cZ5TR7-X4.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/i-89pFmwt-X5.jpg",
     "title": "TBD",
     "link": ""
   },
@@ -720,12 +438,6 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/img_1513.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/img_3337-X5.jpg",
     "title": "TBD",
     "link": ""
@@ -733,12 +445,6 @@ export const imageData = [
 
   {
     "image": "x1000/img_3830-X5.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/img_6843-X4.jpg",
     "title": "TBD",
     "link": ""
   },
@@ -768,37 +474,13 @@ export const imageData = [
   },
 
   {
-    "image": "x1000/img_89411-X4.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/img_89481-X4.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/img_8965.jpg",
     "title": "TBD",
     "link": ""
   },
 
   {
-    "image": "x1000/img_8982-X4.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
     "image": "x1000/img_9303-X4.jpg",
-    "title": "TBD",
-    "link": ""
-  },
-
-  {
-    "image": "x1000/p71310002-X4.jpg",
     "title": "TBD",
     "link": ""
   },
@@ -811,6 +493,11 @@ export const imageData = [
 
   {
     "image": "x1000/sunset1-X4.jpg",
+    "title": "TBD",
+    "link": ""
+  },
+  {
+    "image": "x1000/IMG_8393.jpg",
     "title": "TBD",
     "link": ""
   }

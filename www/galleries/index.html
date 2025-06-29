@@ -10,14 +10,14 @@
 
   <meta property="og:title" content="Galleries of Ronald Bradford">
   <meta property="og:description" content="Architecture, Landscapes, Nature and Night Photography">
-  <meta property="og:image" content="https://ronald.photos/twitter.jpg">
+  <meta property="og:image" content="https://ronald.photos/og.png">
   <meta property="og:url" content="https://ronald.photos">
-  <meta property="og:site_name" content="Photo Collecton of Ronald Bradford">
+  <meta property="og:site_name" content="Photo Collection of Ronald Bradford">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Galleries of Ronald Bradford">
   <meta name="twitter:description" content="Architecture, Landscapes, Nature and Night Photography">
-  <meta name="twitter:image" content="https://ronald.photos/twitter.jpg">
+  <meta name="twitter:image" content="https://ronald.photos/twitter.png">
   <meta name="twitter:url" content="https://ronald.photos">
   <meta name="twitter:site" content="@ronaldbradford">
   <meta name="twitter:creator" content="@ronaldbradford">
@@ -35,6 +35,15 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MGJGQ3JZ1X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MGJGQ3JZ1X');
+</script>
 </head>
 <style>
         .gallery-button {
@@ -51,6 +60,8 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             width: 80%;
+            display: block;
+            margin: 0 auto;
         }
 
         .gallery-button:hover {
@@ -117,6 +128,7 @@
             <!-- Logo/Icon -->
             <div class="logo">
                 <img class="logo-icon" src="/logo.png" alt="RB logo" />
+                <span class="logo-title">Landscape and Architecture Photographer</span>
             </div>
 
             <!-- Desktop Navigation -->
@@ -191,6 +203,7 @@
             align-items: center;
             justify-content: center;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            border: 2px solid white;
         }
 
         .content-column {
@@ -237,6 +250,7 @@
             .square-image {
                 width: 250px;
                 height: 250px;
+                border: 1px solid white;
             }
 
             .content-heading {
@@ -275,7 +289,7 @@
             <div class="content-column">
                 <h1 class="content-heading">INSPIRATION</h1>
                 <p class="content-text">
-                    This collection provides a stunning image with an inspiration quote for each calendar day.
+                    This collection provides a powerful image with an inspirational quote for each calendar day.
                 </p>
                 <button class="gallery-button" onclick="redirectTo('/inspiration')">
                     View Gallery
@@ -291,9 +305,11 @@
                 <h1 class="content-heading">ARCHITECTURE</h1>
                 <p class="content-text">A collection of interesting architecture that showcases diverse design styles, cultural influences and techniques spanning varying time periods.
                 </p>
+                <!--
                 <button class="gallery-button" onclick="redirectTo('/architecture')">
                     View Gallery
                 </button>
+                -->
             </div>
         </div>
 
@@ -307,9 +323,11 @@
                     This collection is an iconic image from each of the following countries I have visited including
 Argentina, Australia, Austria, Bahamas, Belgium, Bermuda, Brazil, Bulgaria, Canada, Chile, Chzechia, Colombia, Costa Rica, Ecuador, Estonia, Finland, France, Germany, Greece, Grenada, Guatemala, Hong Kong, Ireland, Italy, Japan, Kazakhstan, Latvia, Macao, Malaysia, Mexico, Netherlands, New Zealand, Panana, Peru, Philippines, Singapore, South Africa, Spain, Sweden, Switzerland, Thailand, Turkey, United Kingdom (England, Scotland, Wales, Northern Ireland), United States, Uruguay, Vatican City (Holy See).
                 </p>
+                <!--
                 <button class="gallery-button" onclick="redirectTo('/locations')">
                     View Gallery
                 </button>
+                -->
             </div>
         </div>
 
@@ -320,7 +338,7 @@ Argentina, Australia, Austria, Bahamas, Belgium, Bermuda, Brazil, Bulgaria, Cana
             <div class="content-column">
                 <h1 class="content-heading">PATTERNS</h1>
                 <p class="content-text">
-                    A collection of patterns.
+                    A collection of patterns that reveals the hidden rhythms and recurring designs found throughout nature, art, and human culture.
                 </p>
                 <button class="gallery-button" onclick="redirectTo('/patterns')">
                     View Gallery
